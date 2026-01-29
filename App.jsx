@@ -1,11 +1,10 @@
 import "./App.css"
-import Title from "./Title.jsx"
-import Subtitle from "./Subtitle.jsx"
-import ProductTab from "./ProductTab.jsx";
-
+import Button from "./Button";
 function App() {
   return (
-<ProductTab />
-  );
+    <>
+    <Button/>
+    </>
+  ); 
 }
 export default App
