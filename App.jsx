@@ -1,10 +1,11 @@
 import "./App.css"
-import Form from "./Form.jsx"
-function App() {
-  return (
+import LikeButton from "./LikeButton.jsx"
+function App(){
+  return(
     <>
-<Form/>
+    <h3>States in React</h3>
+    <LikeButton/>
     </>
-  ); 
+  )
 }
 export default App
